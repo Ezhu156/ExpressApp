@@ -7,11 +7,12 @@
   </head>
   
   <body>
+    <h1> Find a Comic: Marvel Edition </h1>
     <div class="container">
       <fieldset>
         <form action="/" method="post">
           <input name="hero" type="text" class="ghost-input" placeholder="Enter a Superhero" required>
-          <input type="submit" class="ghost-button" value="Get Superhero">
+          <input type="submit" class="ghost-button" value="Get Comic">
         </form>
         <% if(hero !== null){ %>
           <p><%= hero %></p>
